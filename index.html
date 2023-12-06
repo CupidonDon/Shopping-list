@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Listă de Cumpărături</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Listă de Cumpărături</h1>
+      <form id="shopping-form">
+        <label for="itemName">Produs:</label>
+        <input type="text" id="itemName" placeholder="Ex: Lapte" required />
+
+        <label for="itemQuantity">Cantitate:</label>
+        <input type="number" id="itemQuantity" placeholder="Ex: 1" required />
+
+        <button type="button" id="btnAdd">Adaugă</button>
+      </form>
+
+      <ul id="shopping-list">
+        <!-- <li>
+          <span>Mere</span>
+          <p>Cantitate: 2</p>
+
+          <div>
+            <button onclick="bought(this)">Cumparat</button>
+            <button onclick="edit(this)">Edit</button>
+            <button onclick="removeItem(this)">Șterge</button>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
